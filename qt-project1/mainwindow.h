@@ -1,11 +1,12 @@
 /**
-* @file
-* @author Luc Renambot
+* @file mainwindow.h
+* @author Luc Renambot/ Dariusz Jedralski
 * @version 1.0
 * @section LICENSE
-*  blah blah
+*
 * @section DESCRIPTION
-*  blah blah blah
+*   header file for the mainwindow
+* @brief the header file for mainwindow.cpp
 */
 
 #ifndef MAINWINDOW_H
@@ -37,7 +38,6 @@ public:
 
 private slots:
     void on_pushButton_1_clicked();
-
     void on_spinBox_valueChanged(int arg1);
 
 private:
